@@ -1,0 +1,161 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgb(69,149,200);
+    background: linear-gradient(138deg, rgba(69,149,200,1) 0%, rgba(57,101,145,1) 0%, rgba(50,74,114,1) 38%, rgba(42,44,79,1) 77%, rgba(40,36,69,1) 95%);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+*{
+    font-family: 'Motiva Sans', sans-serif;
+}
+
+.nav-hov{
+    color: rgb(255, 255, 255); 
+    transition: 0.5s;
+}
+
+.nav-hov:hover{
+    background-color: #2db1e934;
+    transform: scale(1.1);
+}
+
+.nav-container{
+    background: rgb(51,106,158);
+    background: radial-gradient(circle, rgba(51,106,158,1) 18%, rgba(28,59,127,1) 100%);
+}
+
+@media screen and (max-width: 991px) {
+    .nav-container{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-container{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .nav-container{
+        font-size: 8px;
+    }
+}
+
+.carousel-index{
+    z-index: -1;
+}
+
+.card-footer{
+    background: rgb(51,130,157);
+    background: linear-gradient(56deg, rgba(51,130,157,1) 0%, rgba(35,73,136,1) 0%, rgba(39,88,141,1) 0%, rgba(45,108,149,1) 16%, rgba(51,130,157,1) 31%, rgba(51,130,157,1) 53%, rgba(40,87,143,1) 100%, rgba(51,130,157,1) 100%);
+}
+
+.cf-glow:hover{
+    background: rgb(62, 197, 241);
+    background: linear-gradient(56deg, rgb(62, 197, 241) 0%, rgb(45, 105, 200) 0%, rgb(45, 105, 200) 0%, rgb(45, 105, 200) 16%, rgb(62, 197, 241) 31%, rgb(62, 197, 241) 53%, rgb(45, 105, 200) 100%, rgb(62, 197, 241) 100%);
+}
+
+.card-footer-text{
+    color: white;
+    font-size: large;
+}
+
+.card-footer2-text{
+    color: rgb(181, 181, 181);
+    font-size: large;
+}
+
+.sconto-box{
+    padding: 5px 10px;
+    width: 30%;
+    background-color: #4C6B22;
+    color: greenyellow;
+}
+
+.prezzo-box{
+    padding: 5px 10px;
+    width: 30%;
+    background-color: #212529;
+    color: greenyellow;
+}
+
+.prezzo-box-norm{
+    padding: 5px 10px;
+    width: 30%;
+    background-color: #212529;
+    color: rgb(255, 255, 255);
+}
+
+.prezzo-norm{
+    color: rgb(255, 255, 255);
+}
+
+.card-glow{
+    transition: 0.3s;
+}
+
+.card-glow:hover{
+    box-shadow: 0px 1px 40px rgba(111, 205, 255, 0.622);
+}
+
+.categoria1{
+   height: 20rem;
+    background-image:linear-gradient(0deg, rgba(51,130,157,1) 0%, rgba(35,73,136,1) 0%, rgba(141,39,39,1) 0%, rgba(141,39,39,0) 47%), url(https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg?t=1702309974);
+    background-size: cover;
+    background-position: center;
+}
+
+.categoria2{
+   height: 20rem;
+    background-image:linear-gradient(0deg, rgba(51,130,157,1) 0%, rgba(35,73,136,1) 0%, rgba(39,102,141,1) 0%, rgba(39,102,141,0) 47%), url(https://nintendon.it/wp-content/uploads/2023/08/Genshin-Impact-artwork-NintendOn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.categoria3{
+    height: 20rem;
+    background-image:linear-gradient(0deg, rgba(51,130,157,1) 0%, rgba(35,73,136,1) 0%, rgba(140,141,39,1) 0%, rgba(140,141,39,0) 47%), url(https://image.api.playstation.com/vulcan/ap/rnd/202105/2700/qgjRzM8tVqLIvfjQJL4m65yi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.categoria4{
+   height: 20rem;
+    background: rgb(51,130,157);
+    background-image:linear-gradient(0deg, rgba(51,130,157,1) 0%, rgba(35,73,136,1) 0%, rgba(30,177,58,1) 0%, rgba(30,177,58,0) 47%), url(https://cdn.cloudflare.steamstatic.com/steam/apps/1435790/capsule_616x353.jpg?t=1703262884);
+    background-size: cover;
+    background-position: center;
+}
+
+.categoria-anim{
+    transition: 0.4s;
+}
+
+.categoria-anim:hover{
+    transform: scale(1.1);
+}
+
+.text-center-bottom{
+    color: white;
+    text-shadow: 0px 0px 20px white;
+    text-align: center;
+    padding-top: 65%;
+}
+
+@media screen and (max-width: 767px) {
+    .text-center-bottom{
+        padding-top: 48%;
+    }
+}
+
+
+.steam-footer{
+    background-color: #212529;
+    height: 20vh;
+    color: rgb(181, 181, 181);
+}
